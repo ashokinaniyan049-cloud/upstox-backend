@@ -1,0 +1,16 @@
+{
+  "name": "upstox-feed-backend",
+  "version": "1.0.0",
+  "description": "Backend that connects to Upstox live market feed using a daily-pasted access token, and broadcasts ticks to the orderflow terminal frontend.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5",
+    "ws": "^8.17.0",
+    "protobufjs": "^7.3.0",
+    "axios": "^1.7.2"
+  }
+}
